@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PuddingFest - Event</title>
+  <link rel="stylesheet" href="event.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <h1 class="logo">PuddingFest</h1>
+      <ul class="nav-links">
+        <li><a href="landingpage.html">Home</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="event-header">
+    <div class="container">
+      <h2>Pudding Fest</h2>
+      <p>PuddingFest is an annual event organized by PT ChipiChapa, showcasing the latest technologies from various renowned companies in Indonesia. This year, it will be held online, featuring presentations from different companies. This events is sponsor by microsoft and will be very interactfull. Check out the schedule and join the exciting events with us!</p>
+    </div>
+  </header>
+  <section class="event-carousel">
+    <div class="container">
+      <h2>Speaker last year</h2>
+      <div class="carousel">
+
+        <div class="carousel-item">
+          <img src="./assets/dora.jpeg" alt="Event 2">
+          <h3>Industrial technologies</h3>
+          <p>Mr Winanda Suprasotno</p>
+        </div>
+
+        <div class="carousel-item">
+            <img src="./assets/R (1).jpeg" alt="Event 2">
+            <h3>Business ideation</h3>
+            <p>Mrs Frenk</p>
+        </div>
+
+        <div class="carousel-item">
+            <img src="./assets/R.jpeg" alt="Event 2">
+            <h3>Relationship content</h3>
+            <p>Mr Ahmad Raden</p>
+        </div>
+
+        <div class="carousel-item">
+            <img src="./assets/OIP (1).jpeg" alt="Event 2">
+            <h3>Explorer your carrer</h3>
+            <p>Mrs Yulia Carope</p>
+        </div>
+    
+      </div>
+    </div>
+  </section>
+  <section class="event-timeline">
+    <div class="container">
+      <h2>Event Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="date">April 10, 2024</div>
+          <p>How to make a simple AI </p>
+          <img src="./assets/1.webp" alt="">
+        </div>
+
+        <div class="timeline-item">
+          <div class="date">May 12, 2024</div>
+          <p>Blockchain potention in the future</p>
+          <img src="./assets/2.jpg" alt="">
+        </div>
+
+        <div class="timeline-item">
+            <div class="date">May 24, 2024</div>
+            <p>Privacy in digital era</p>
+            <img src="./assets/3.jpg" alt="">
+          </div>
+
+          <div class="timeline-item">
+            <div class="date">June 1, 2024</div>
+            <p>Solar panel technology</p>
+            <img src="./assets/4.jpg" alt="">
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="event-registration">
+    <div class="container">
+      <h2>Event Registration</h2>
+      <p>Register now and win the luckydraw !</p>
+      <form action="#" method="POST">
+        <label for="fullname"> Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telephone">Telephone:</label>
+        <input type="telephone" id="telephone" name="telephone" required>
+
+        <label for="event">Select event:</label>
+        <select id="event" name="event" required>
+            <option value="">Select an event</option>
+            <option value="event1">How to make a simple AI</option>
+            <option value="event2">Blockchain potention in the future</option>
+            <option value="event3">Privacy in digital era</option>
+            <option value="event4">Solar panel technology</option>
+          </select>
+
+        <input type="submit" value="Register" class="btn">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 PuddingFest. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

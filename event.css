@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./assets/abstract-lines-and-dots-digital-data-connection-technology-abstract-background-illustration-vector.jpg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  background-color: #03030a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+  text-transform:uppercase;
+}
+
+.event-header {
+  background-image: url(./assets/abstract-lines-and-dots-digital-data-connection-technology-abstract-background-illustration-vector.jpg);
+  background-size: cover;
+  color: #bdc1e9;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.event-header h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+
+.event-header p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.event-carousel {
+  padding: 80px 0;
+  background-color: #d7d7d7;
+}
+
+.event-carousel h2 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.carousel-item:last-child {
+  margin-right: 0;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.carousel-item p {
+  font-size: 16px;
+  color: #777;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Event timeline */
+.event-timeline {
+  padding: 80px 0;
+}
+
+.event-timeline h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  color:bisque;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #ff9800;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  flex: 0 1 50%;
+  max-width: 50%;
+  padding: 20px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #ff9800;
+  border-radius: 50%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-item:nth-child(even) {
+  text-align: right;
+}
+
+.timeline-item:nth-child(even)::before {
+  left: auto;
+  right: 50%;
+}
+
+.timeline-item .date {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: burlywood;
+}
+.timeline-item p {
+  color: rgb(251, 251, 251); 
+}
+.timeline-item img {
+  max-width: 100%; 
+  height: 200%; 
+  display: block;
+  margin-top: 20px; 
+}
+
+
+.event-registration {
+  padding: 0px 0px ;
+  text-align: center;
+}
+
+.event-registration label{
+  color: white;
+}
+.event-registration h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.event-registration p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: rgb(195, 0, 255);
+}
+
+.event-registration form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.event-registration form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.event-registration form input[type="text"],
+.event-registration form input[type="email"],
+.event-registration form input[type="telephone"],
+.event-registration form select[type="event"]
+{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 10px; 
+  border: 3px solid #000000; 
+  box-sizing: border-box; 
+  border-radius: 10px;
+}
+
+.event-registration form input[type="submit"] {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-registration form input[type="submit"]:hover {
+  background-color: #26ff2d;
+  color: black;
+}
+
+.carousel-item img {
+  max-width: 400px; 
+  height:300px;
+  border-radius: 20px; 
+}
+
+footer {
+  background-color: #03030a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+

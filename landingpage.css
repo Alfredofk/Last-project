@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(./assets/abstract-lines-and-dots-digital-data-connection-technology-abstract-background-illustration-vector.jpg);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav {
+    background-color: #03030a;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff9800;
+    text-transform:uppercase;
+    
+  }
+
+  header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  header h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #3e9b36;
+    color: black;
+  }
+  
+  #about {
+    padding: 80px 0;
+    background-color: #87cfdf;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #about p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #4b4b4b;
+    margin-bottom: 40px;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .btn:hover {
+    animation: float 0.5s ease infinite;
+  }
+  
+  footer {
+    background-color: #03030a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
